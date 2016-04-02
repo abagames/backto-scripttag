@@ -1,0 +1,16 @@
+{
+    "version": "0.1.0",
+    "command": "livereloadx",
+    "isShellCommand": true,
+    "tasks": [
+        {
+            "taskName": "livereloadx",
+            "args": [
+                "-s"
+            ],
+            "suppressTaskName": true,
+            "isBuildCommand": true,
+            "showOutput": "silent"
+        }
+    ]
+}
