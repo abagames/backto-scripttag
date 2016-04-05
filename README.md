@@ -30,6 +30,7 @@ function loadJss(files, base) {
     files.split(',').forEach(f => {
         const script = document.createElement('script');
         script.setAttribute('src', `${base}${f.trim()}`);
+        script.async = false;
         document.getElementsByTagName('body')[0].appendChild(script);
     });
 }
